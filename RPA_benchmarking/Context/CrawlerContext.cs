@@ -11,6 +11,6 @@ public class CrawlerContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=PC03LAB2538\\SENAI;Database=WebScrapingDb2;User Id=sa;Password=senai.123;"); // Substitua "YourConnectionString" pela sua string de conexão
+        optionsBuilder.UseSqlServer("Server=PC03LAB2538\\SENAI;Database=WebScrapingDb2;User Id=sa;Password=senai.123;");
     }
 }
