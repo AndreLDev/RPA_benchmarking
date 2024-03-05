@@ -39,6 +39,10 @@ namespace RPA_benchmarking.Class
                 {
                     mail.To.Add(email);
                 }
+                else
+                {
+                    Console.WriteLine("Email: " + email + " Não é valido");
+                }
             }
 
             mail.Subject = subject;
@@ -72,6 +76,7 @@ namespace RPA_benchmarking.Class
             smtp.Send(menssage);
             smtp.Dispose();
         }
+
 
 
     }
