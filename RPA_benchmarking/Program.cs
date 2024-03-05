@@ -70,7 +70,7 @@ public class Program
                             if (!ProdutoJaRegistrado(produto.Id))
                             {
 
-                                RegistrarLog("0001", "andre", DateTime.Now, "ConsultaAPI - Verificar Produto", "Sucesso", produto.Id);
+                                RegistrarLog("3416", "andreLuiz", DateTime.Now, "ConsultaAPI - Verificar Produto", "Sucesso", produto.Id);
 
 
                                 MercadoLivreScraper mercadoLivreScraper = new MercadoLivreScraper();
@@ -110,8 +110,8 @@ public class Program
                                     <p>Preço: {produtoMagazine.Price}</p>
                                     <h2>Melhor Compra</h2>
                                     <p>{melhorCompraTexto}</p>
-                                    <p>Robô 0001</p>
-                                    <p>Usuário: andre</p>
+                                    <p>Robô 3416</p>
+                                    <p>Usuário: andreLuiz</p>
                                 </body>
                                 </html>
                                 ";
@@ -127,37 +127,7 @@ public class Program
                                     body: corpoEmailHtml);
 
 
-                                RegistrarLog("0001", "andre", DateTime.Now, "EnvioEmail", "Sucesso", produto.Id);
-
-
-
-                                var options = new RestClientOptions("https://app.whatsgw.com.br")
-                                {
-                                    MaxTimeout = -1,
-                                };
-                                var clientWsp = new RestClient(options);
-                                var request = new RestRequest("/api/WhatsGw/Send", Method.Post);
-                                request.AddHeader("Content-Type", "application/json");
-                                var body = @"{
-                                    " + "\n" +
-                                    @"""apikey"" : ""B3CA76C2-07F3-47E6-A2F8-YOWAPIKEY"",
-                                    " + "\n" +
-                                    @"""phone_number"" : ""5511999999999"",
-                                    " + "\n" +
-                                    @"""contact_phone_number"" : ""5511988888888"",
-                                    " + "\n" +
-                                    @"""message_custom_id"" : ""yoursoftwareid"",
-                                    " + "\n" +
-                                    @"""message_type"" : ""text"",
-                                    " + "\n" +
-                                    @"""message_body"" : ""Teste de Msg\n_Italico_ \n*negrito*\n~tachado~\n```Monoespaçado```\n😜"",
-                                    " + "\n" +
-                                    @"""check_status"" : ""1""
-                                    " + "\n" +
-                                    @"}";
-                                request.AddStringBody(body, DataFormat.Json);
-                                RestResponse responseWsp = await clientWsp.ExecuteAsync(request);
-                                Console.WriteLine(responseWsp.Content);
+                                RegistrarLog("3416", "andreLuiz", DateTime.Now, "EnvioEmail", "Sucesso", produto.Id);
                             }
                         }
                     }
@@ -184,7 +154,7 @@ public class Program
     {
         using (var context = new CrawlerContext())
         {
-            return context.Logs.Any(log => log.IdProd == idProduto);
+            return context.LOGROBO.Any(log => log.IdProdutoAPI == idProduto && log.CodigoRobo == "3416");
         }
     }
 
@@ -194,14 +164,14 @@ public class Program
         {
             var log = new Log
             {
-                CodRob = codRob,
-                UsuRob = usuRob,
+                CodigoRobo = codRob,
+                UsuarioRobo = usuRob,
                 DateLog = dateLog,
-                Processo = processo,
-                InfLog = infLog,
-                IdProd = idProd
+                Etapa = processo,
+                InformacaoLog = infLog,
+                IdProdutoAPI = idProd
             };
-            context.Logs.Add(log);
+            context.LOGROBO.Add(log);
             context.SaveChanges();
         }
     }

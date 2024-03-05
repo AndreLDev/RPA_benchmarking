@@ -29,7 +29,7 @@ public class MagazineLuizaScraper
                     produto.Price = priceElement.Text;
                     produto.Url = urlElement.GetAttribute("href"); 
 
-                    RegistrarLog("0001", "andre", DateTime.Now, "WebScraping - Magazine Luiza", "Sucesso", idProduto);
+                    RegistrarLog("3416", "andreLuiz", DateTime.Now, "WebScraping - Magazine Luiza", "Sucesso", idProduto);
 
                     return produto;
                 }
@@ -37,7 +37,7 @@ public class MagazineLuizaScraper
                 {
                     Console.WriteLine("Preço não encontrado.");
 
-                    RegistrarLog("0001", "andre", DateTime.Now, "WebScraping - Magazine Luiza", "Preço não encontrado", idProduto);
+                    RegistrarLog("3416", "andreLuiz", DateTime.Now, "WebScraping - Magazine Luiza", "Preço não encontrado", idProduto);
 
                     return null;
                 }
@@ -47,7 +47,7 @@ public class MagazineLuizaScraper
         {
             Console.WriteLine($"Erro ao acessar a página: {ex.Message}");
 
-            RegistrarLog("0001", "andre", DateTime.Now, "Web Scraping - Magazine Luiza", $"Erro: {ex.Message}", idProduto);
+            RegistrarLog("3416", "andreLuiz", DateTime.Now, "Web Scraping - Magazine Luiza", $"Erro: {ex.Message}", idProduto);
 
             return null;
         }
@@ -60,14 +60,14 @@ public class MagazineLuizaScraper
         {
             var log = new Log
             {
-                CodRob = codRob,
-                UsuRob = usuRob,
+                CodigoRobo = codRob,
+                UsuarioRobo = usuRob,
                 DateLog = dateLog,
-                Processo = processo,
-                InfLog = infLog,
-                IdProd = idProd
+                Etapa = processo,
+                InformacaoLog = infLog,
+                IdProdutoAPI = idProd
             };
-            context.Logs.Add(log);
+            context.LOGROBO.Add(log);
             context.SaveChanges();
         }
 

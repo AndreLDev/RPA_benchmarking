@@ -19,17 +19,17 @@ namespace RPA_benchmarking.Benchmarking
 
             if(numPrecoMercado > numPrecoMagazine)
             {
-                RegistrarLog("0001", "andre", DateTime.Now, "Benchmarking", "Sucesso", idProduto);
+                RegistrarLog("3416", "andreLuiz", DateTime.Now, "Benchmarking", "Sucesso", idProduto);
                 return 0;
             }
             else if(numPrecoMagazine > numPrecoMercado)
             {
-                RegistrarLog("0001", "andre", DateTime.Now, "Benchmarking", "Sucesso", idProduto);
+                RegistrarLog("3416", "andreLuiz", DateTime.Now, "Benchmarking", "Sucesso", idProduto);
                 return 1;
             }
             else 
             {
-                RegistrarLog("0001", "andre", DateTime.Now, "Benchmarking", "Alerta", idProduto);
+                RegistrarLog("3416", "andreLuiz", DateTime.Now, "Benchmarking", "Alerta", idProduto);
                 return 2;
             }
         }
@@ -40,14 +40,14 @@ namespace RPA_benchmarking.Benchmarking
             {
                 var log = new Log
                 {
-                    CodRob = codRob,
-                    UsuRob = usuRob,
+                    CodigoRobo = codRob,
+                    UsuarioRobo = usuRob,
                     DateLog = dateLog,
-                    Processo = processo,
-                    InfLog = infLog,
-                    IdProd = idProd
+                    Etapa = processo,
+                    InformacaoLog = infLog,
+                    IdProdutoAPI = idProd
                 };
-                context.Logs.Add(log);
+                context.LOGROBO.Add(log);
                 context.SaveChanges();
             }
         }

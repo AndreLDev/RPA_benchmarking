@@ -35,7 +35,7 @@ public class MercadoLivreScraper
                 string firstProductUrl = firstProductUrlNode.GetAttributeValue("href", "");
 
 
-                RegistrarLog("0001", "andre", DateTime.Now, "WebScraping - Mercado Livre", "Sucesso", idProduto);
+                RegistrarLog("3416", "andreLuiz", DateTime.Now, "WebScraping - Mercado Livre", "Sucesso", idProduto);
 
 
                 ProdutoScraper produto = new ProdutoScraper();
@@ -53,7 +53,7 @@ public class MercadoLivreScraper
                 Console.WriteLine("Preço não encontrado.");
 
 
-                RegistrarLog("0001", "andre", DateTime.Now, "WebScraping - Mercado Livre", "Preço não encontrado", idProduto);
+                RegistrarLog("3416", "andreLuiz", DateTime.Now, "WebScraping - Mercado Livre", "Preço não encontrado", idProduto);
 
 
                 return null;
@@ -65,7 +65,7 @@ public class MercadoLivreScraper
             Console.WriteLine($"Erro ao acessar a página: {ex.Message}");
 
 
-            RegistrarLog("0001", "andre", DateTime.Now, "Web Scraping - Mercado Livre", $"Erro: {ex.Message}", idProduto);
+            RegistrarLog("3416", "andreLuiz", DateTime.Now, "Web Scraping - Mercado Livre", $"Erro: {ex.Message}", idProduto);
 
 
             return null;
@@ -78,14 +78,14 @@ public class MercadoLivreScraper
         {
             var log = new Log
             {
-                CodRob = codRob,
-                UsuRob = usuRob,
+                CodigoRobo = codRob,
+                UsuarioRobo = usuRob,
                 DateLog = dateLog,
-                Processo = processo,
-                InfLog = infLog,
-                IdProd = idProd
+                Etapa = processo,
+                InformacaoLog = infLog,
+                IdProdutoAPI = idProd
             };
-            context.Logs.Add(log);
+            context.LOGROBO.Add(log);
             context.SaveChanges();
         }
     }

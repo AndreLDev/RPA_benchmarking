@@ -21,39 +21,39 @@ namespace RPA_benchmarking.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Log", b =>
+            modelBuilder.Entity("LOGROBO", b =>
                 {
-                    b.Property<int>("IdLog")
+                    b.Property<int>("iDlOG")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdLog"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("iDlOG"), 1L, 1);
 
-                    b.Property<string>("CodRob")
+                    b.Property<string>("CodigoRobo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(4)");
 
                     b.Property<DateTime>("DateLog")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("IdProd")
+                    b.Property<int>("IdProdutoAPI")
                         .HasColumnType("int");
 
-                    b.Property<string>("InfLog")
+                    b.Property<string>("InformacaoLog")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Processo")
+                    b.Property<string>("Etapa")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("UsuRob")
+                    b.Property<string>("UsuarioRobo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("IdLog");
+                    b.HasKey("iDlOG");
 
-                    b.ToTable("Logs");
+                    b.ToTable("LOGROBO");
                 });
 #pragma warning restore 612, 618
         }
