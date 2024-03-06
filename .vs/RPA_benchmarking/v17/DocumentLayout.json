@@ -90,8 +90,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Services\\VerificacaoProdutoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAgwCsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T02:11:53.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T02:11:53.511Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Services\\ProdutoService.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAACgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T02:04:07.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T02:04:07.593Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Services\\ApiService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T01:59:51.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T01:59:51.274Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Scraper\\ScraperBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T01:43:24.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T01:43:24.162Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Scraper\\MercadoLivreScraper.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.058Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Scraper\\MagazineLuizaScraper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.062Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.076Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Services\\LogService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T01:27:49.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T01:27:49.301Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "RPA_benchmarking\\EmailSender\\Email.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.08Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Data\\CrawlerContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.066Z"
             },
             {
               "$type": "Document",
@@ -245,8 +235,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Models\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.069Z"
             },
             {
               "$type": "Document",
@@ -282,8 +271,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Scraper\\ProdutoScraper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.084Z"
             },
             {
               "$type": "Document",
@@ -295,8 +283,7 @@
               "RelativeToolTip": "RPA_benchmarking\\Services\\BenchmarkingService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAApwBUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T00:53:20.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T00:53:20.086Z"
             }
           ]
         }
