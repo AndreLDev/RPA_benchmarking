@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPA_benchmarking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aec1e7cce310123392379be3d556720dd400ec5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPA_benchmarking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPA_benchmarking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

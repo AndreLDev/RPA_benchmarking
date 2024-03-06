@@ -1,4 +1,4 @@
-﻿namespace RPA_benchmarking.Class
+﻿namespace RPA_benchmarking.Models
 {
     public class Produto
     {

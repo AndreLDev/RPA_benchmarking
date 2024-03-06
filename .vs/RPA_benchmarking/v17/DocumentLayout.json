@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projetos\\RPA_benchmarking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\services\\verificacaoprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\services\\verificacaoprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\emailsender\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\emailsender\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\scraper\\magazineluizascraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\scraper\\magazineluizascraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\scraper\\mercadolivrescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\scraper\\mercadolivrescraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\scraper\\scraperbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\scraper\\scraperbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\data\\crawlercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\data\\crawlercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\migrations\\20240228183755_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\migrations\\20240228183755_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\services\\benchmarkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\services\\benchmarkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\migrations\\crawlercontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\migrations\\crawlercontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|d:\\projetos\\rpa_benchmarking\\rpa_benchmarking\\scraper\\produtoscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CBC6D1-36D2-4FA8-B917-F2AA33340289}|RPA_benchmarking\\RPA_benchmarking.csproj|solutionrelative:rpa_benchmarking\\scraper\\produtoscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerificacaoProdutoService.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\VerificacaoProdutoService.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Services\\VerificacaoProdutoService.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\VerificacaoProdutoService.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Services\\VerificacaoProdutoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T02:11:53.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Services\\ProdutoService.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Services\\ProdutoService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T02:04:07.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Services\\ApiService.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\ApiService.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Services\\ApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T01:59:51.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Services\\EmailService.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\EmailService.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T01:55:51.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScraperBase.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\ScraperBase.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Scraper\\ScraperBase.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\ScraperBase.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Scraper\\ScraperBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T01:43:24.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MercadoLivreScraper.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\MercadoLivreScraper.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Scraper\\MercadoLivreScraper.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\MercadoLivreScraper.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Scraper\\MercadoLivreScraper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MagazineLuizaScraper.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\MagazineLuizaScraper.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Scraper\\MagazineLuizaScraper.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\MagazineLuizaScraper.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Scraper\\MagazineLuizaScraper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Program.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Program.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Program.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\LogService.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Services\\LogService.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\LogService.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Services\\LogService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T01:27:49.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Email.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\EmailSender\\Email.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\EmailSender\\Email.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\EmailSender\\Email.cs",
+              "RelativeToolTip": "RPA_benchmarking\\EmailSender\\Email.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrawlerContext.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Data\\CrawlerContext.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Data\\CrawlerContext.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Data\\CrawlerContext.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Data\\CrawlerContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Log.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Models\\Log.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Models\\Log.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Models\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Models\\Produto.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Models\\Produto.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240228183755_test.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Migrations\\20240228183755_test.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Migrations\\20240228183755_test.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Migrations\\20240228183755_test.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Migrations\\20240228183755_test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CrawlerContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Migrations\\CrawlerContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Migrations\\CrawlerContextModelSnapshot.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Migrations\\CrawlerContextModelSnapshot.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Migrations\\CrawlerContextModelSnapshot.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:19.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProdutoScraper.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\ProdutoScraper.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Scraper\\ProdutoScraper.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Scraper\\ProdutoScraper.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Scraper\\ProdutoScraper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BenchmarkingService.cs",
+              "DocumentMoniker": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\BenchmarkingService.cs",
+              "RelativeDocumentMoniker": "RPA_benchmarking\\Services\\BenchmarkingService.cs",
+              "ToolTip": "D:\\projetos\\RPA_benchmarking\\RPA_benchmarking\\Services\\BenchmarkingService.cs",
+              "RelativeToolTip": "RPA_benchmarking\\Services\\BenchmarkingService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAApwBUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:53:20.086Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

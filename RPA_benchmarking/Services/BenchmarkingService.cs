@@ -4,30 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPA_benchmarking.Benchmarking
+namespace RPA_benchmarking.Services
 {
-    public class Benchmarking
+    public class BenchmarkingService
     {
 
         public int CompararValor(string precoMercado, string precoMagazine, int idProduto)
         {
             var priceMercado = precoMercado.Replace(".", "");
-            var priceMagazine = precoMagazine.Trim(new Char[] { ' ', 'R', '$'}).Replace(".", "");
+            var priceMagazine = precoMagazine.Trim(new char[] { ' ', 'R', '$' }).Replace(".", "");
 
-            var numPrecoMercado = Double.Parse(priceMercado);
-            var numPrecoMagazine = Double.Parse(priceMagazine);
+            var numPrecoMercado = double.Parse(priceMercado);
+            var numPrecoMagazine = double.Parse(priceMagazine);
 
-            if(numPrecoMercado > numPrecoMagazine)
+            if (numPrecoMercado > numPrecoMagazine)
             {
                 RegistrarLog("3416", "andreLuiz", DateTime.Now, "Benchmarking", "Sucesso", idProduto);
                 return 0;
             }
-            else if(numPrecoMagazine > numPrecoMercado)
+            else if (numPrecoMagazine > numPrecoMercado)
             {
                 RegistrarLog("3416", "andreLuiz", DateTime.Now, "Benchmarking", "Sucesso", idProduto);
                 return 1;
             }
-            else 
+            else
             {
                 RegistrarLog("3416", "andreLuiz", DateTime.Now, "Benchmarking", "Alerta", idProduto);
                 return 2;
