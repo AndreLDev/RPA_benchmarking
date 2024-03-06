@@ -1,13 +1,14 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Internal.Logging;
-using RPA_benchmarking.Class;
+using RPA_benchmarking.Scraper;
+using RPA_benchmarking.Services;
 using System;
 using System.Diagnostics;
 
-public class MagazineLuizaScraper
+public class MagazineLuizaScraper : ScraperBase
 {
-    public ProdutoScraper ObterPreco(string descricaoProduto, int idProduto)
+    public override ProdutoScraper ObterPreco(string descricaoProduto, int idProduto)
     {
         try
         {
@@ -23,22 +24,21 @@ public class MagazineLuizaScraper
 
                 if (priceElement != null)
                 {
+                    ProdutoScraper produto = new ProdutoScraper
+                    {
+                        Title = titleElement.Text,
+                        Price = priceElement.Text,
+                        Url = urlElement.GetAttribute("href")
+                    };
 
-                    ProdutoScraper produto = new ProdutoScraper();
-                    produto.Title = titleElement.Text;
-                    produto.Price = priceElement.Text;
-                    produto.Url = urlElement.GetAttribute("href"); 
-
-                    RegistrarLog("3416", "andreLuiz", DateTime.Now, "WebScraping - Magazine Luiza", "Sucesso", idProduto);
+                    RegistrarLog("WebScraping - Magazine Luiza", "Sucesso", idProduto);
 
                     return produto;
                 }
                 else
                 {
                     Console.WriteLine("Preço não encontrado.");
-
-                    RegistrarLog("3416", "andreLuiz", DateTime.Now, "WebScraping - Magazine Luiza", "Preço não encontrado", idProduto);
-
+                    RegistrarLog("WebScraping - Magazine Luiza", "Preço não encontrado", idProduto);
                     return null;
                 }
             }
@@ -46,30 +46,8 @@ public class MagazineLuizaScraper
         catch (Exception ex)
         {
             Console.WriteLine($"Erro ao acessar a página: {ex.Message}");
-
-            RegistrarLog("3416", "andreLuiz", DateTime.Now, "Web Scraping - Magazine Luiza", $"Erro: {ex.Message}", idProduto);
-
+            RegistrarLog("Web Scraping - Magazine Luiza", $"Erro: {ex.Message}", idProduto);
             return null;
         }
-    }
-
-    private static void RegistrarLog(string codRob, string usuRob, DateTime dateLog, string processo, string infLog, int idProd)
-    {
-
-        using (var context = new CrawlerContext())
-        {
-            var log = new Log
-            {
-                CodigoRobo = codRob,
-                UsuarioRobo = usuRob,
-                DateLog = dateLog,
-                Etapa = processo,
-                InformacaoLog = infLog,
-                IdProdutoAPI = idProd
-            };
-            context.LOGROBO.Add(log);
-            context.SaveChanges();
-        }
-
     }
 }

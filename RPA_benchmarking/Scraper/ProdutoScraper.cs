@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPA_benchmarking.Class
+namespace RPA_benchmarking.Scraper
 {
     public class ProdutoScraper
     {
